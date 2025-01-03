@@ -88,6 +88,7 @@ class _BerandaState extends State<Beranda> {
                     const Spacer(),
                     TextButton.icon(
                       onPressed: () {
+                        Navigator.pushNamed(context, '/masuk');
                       },
                       icon: const Icon(Icons.logout, color: Colors.white),
                       label: const Text(
